@@ -2,26 +2,26 @@
     {
         "filename": "index.md",
         "attr": {
-            "data-background": "presentations/geopython2016/css/img/bg.png"
+            "data-background": "css/img/bg.png"
         }
     },
     [
         {
             "filename": "who-we-are.md",
             "attr": {
-                "data-background": "presentations/geopython2016/css/img/bg.png"
+                "data-background": "css/img/bg.png"
             }
         },
         {
             "filename": "geonode.md",
             "attr": {
-                "data-background": "presentations/geopython2016/css/img/bg.png"
+                "data-background": "css/img/bg.png"
             }
         },
         {
             "filename": "geoavalanche.html",
             "attr": {
-                "data-background": "presentations/geopython2016/css/img/bg.png"
+                "data-background": "css/img/bg.png"
             }
         }
     ],
@@ -29,43 +29,43 @@
         {
             "filename": "what-is-geonode.md",
             "attr": {
-                "data-background": "presentations/geopython2016/css/img/bg.png"
+                "data-background": "css/img/bg.png"
             }
         },
         {
             "filename": "architecture.md",
             "attr": {
-                "data-background": "presentations/geopython2016/css/img/bg.png"
+                "data-background": "css/img/bg.png"
             }
         },
         {
             "filename": "what-is-geonode-1.md",
             "attr": {
-                "data-background": "presentations/geopython2016/css/img/bg.png"
+                "data-background": "css/img/bg.png"
             }
         },
         {
             "filename": "layers.md",
             "attr": {
-                "data-background": "presentations/geopython2016/css/img/bg.png"
+                "data-background": "css/img/bg.png"
             }
         },
         {
             "filename": "layers-1.md",
             "attr": {
-                "data-background": "presentations/geopython2016/css/img/bg.png"
+                "data-background": "css/img/bg.png"
             }
         },
         {
             "filename": "maps.md",
             "attr": {
-                "data-background": "presentations/geopython2016/css/img/bg.png"
+                "data-background": "css/img/bg.png"
             }
         },
         {
             "filename": "maps-1.md",
             "attr": {
-                "data-background": "presentations/geopython2016/css/img/bg.png"
+                "data-background": "css/img/bg.png"
             }
         }
     ],
@@ -73,62 +73,62 @@
         {
             "filename": "geolinkedata.md",
             "attr": {
-                "data-background": "presentations/geopython2016/css/img/bg.png"
+                "data-background": "css/img/bg.png"
             }
         },
         {
             "filename": "custom-geonode.md",
             "attr": {
-                "data-background": "presentations/geopython2016/css/img/bg.png"
+                "data-background": "css/img/bg.png"
             }
         },
         {
             "filename": "geolinkedata-1.md",
             "attr": {
-                "data-background": "presentations/geopython2016/css/img/bg.png"
+                "data-background": "css/img/bg.png"
             }
         },
         {
             "filename": "api.md",
             "attr": {
-                "data-background": "presentations/geopython2016/css/img/bg.png"
+                "data-background": "css/img/bg.png"
             }
         },
         {
             "filename": "shape2triple.md",
             "attr": {
-                "data-background": "presentations/geopython2016/css/img/bg.png"
+                "data-background": "css/img/bg.png"
             }
         },
         {
             "filename": "data.md",
             "attr": {
-                "data-background": "presentations/geopython2016/css/img/bg.png"
+                "data-background": "css/img/bg.png"
             }
         },
         {
             "filename": "orchestrator.md",
             "attr": {
-                "data-background": "presentations/geopython2016/css/img/bg.png"
+                "data-background": "css/img/bg.png"
             }
         },
         {
             "filename": "big-picture.md",
             "attr": {
-                "data-background": "presentations/geopython2016/css/img/bg.png"
+                "data-background": "css/img/bg.png"
             }
         }
     ],
     {
         "filename": "links.md",
         "attr": {
-            "data-background": "presentations/geopython2016/css/img/bg.png"
+            "data-background": "css/img/bg.png"
         }
     },
     {
         "filename": "thanks.md",
         "attr": {
-            "data-background": "presentations/geopython2016/css/img/bg.png"
+            "data-background": "css/img/bg.png"
         }
     }
 ]
