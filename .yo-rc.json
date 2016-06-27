@@ -1,0 +1,10 @@
+{
+  "generator-reveal": {
+    "presentationTitle": "A RESTful API for linking geodata",
+    "packageVersion": "0.0.1",
+    "useSass": true,
+    "deployToGithubPages": true,
+    "githubUsername": "francbartoli",
+    "githubRepository": "geolinkedata"
+  }
+}
