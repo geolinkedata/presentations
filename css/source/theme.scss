@@ -1,3 +1,16 @@
+/*************************************************************************************/
+/*                                                                                   */
+/*                            __                                              __     */
+/*                           /\ \                                            /\ \    */
+/*    __        __     ___   \ \ \____     __    __  __      ___     ___     \_\ \   */
+/*  /'_ `\    /'__`\  / __`\  \ \ '__`\  /'__`\ /\ \/\ \    / __`\ /' _ `\   /'_` \  */
+/* /\ \L\ \  /\  __/ /\ \L\ \  \ \ \L\ \/\  __/ \ \ \_\ \  /\ \L\ \/\ \/\ \ /\ \L\ \ */
+/* \ \____ \ \ \____\\ \____/   \ \_,__/\ \____\ \/`____ \ \ \____/\ \_\ \_\\ \___,_\*/
+/*  \/___L\ \ \/____/ \/___/     \/___/  \/____/  `/___/> \ \/___/  \/_/\/_/ \/__,_ /*/
+/*    /\____/                                        /\___/                          */
+/*    \_/__/                                         \/__/                           */
+/*                                                                                   */
+/*************************************************************************************/
 /**
  * Black theme for reveal.js. This is the opposite of the 'white' theme.
  *
@@ -190,10 +203,15 @@ $h1_text_shadow:                  0  1px  0   darken(white, 12%),
                                   0 20px 20px transparentize(black, 0.85);
 
 // GEOBEYOND Signature
-$geobeyond_sig:                        "img/logo_gn.png";
+$geobeyond_sig:                        "img/logo/logo_300.png";
 $geobeyond_sig_width:                  image-width($geobeyond_sig);
 $geobeyond_sig_height:                 image-height($geobeyond_sig);
 $geobeyond_sig_margin:                 25px;
+// FOSS4G Footer
+$foss4g_foot:                          "img/logo/foss4g-logo_07.png";
+$foss4g_foot_width:                    image-width($foss4g_foot);
+$foss4g_foot_height:                   image-height($foss4g_foot);
+$foss4g_foot_margin:                   25px;
 /******************************************************************************/
 /******************************************************************************/
 /* General Styles                                                             */
@@ -314,11 +332,16 @@ $geobeyond_sig_margin:                 25px;
 /******************************************************************************/
 /* Slides                                                                     */
 /******************************************************************************/
-  html.end body {
+html.end body {
     @include background-image(radial-gradient(lighten($cBlueDark, 70%), desaturate(lighten($cBlueDark, 30%), 70%)));
     .reveal .progress,
     .reveal .controls { opacity: 0; }
-  }
+}
+
+.reveal p {
+    margin: $blockMargin 0;
+    line-height: 0.8;
+}
 /******************************************************************************/
 /******************************************************************************/
 /* IMAGES
@@ -347,7 +370,7 @@ $geobeyond_sig_margin:                 25px;
         background: rgba(255,255,255,0.2);
         border-color: $linkColor;
 
-        box-shadow: 0 0 20px rgba(0, 0, 0, 0.55);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.55);
     }
 /******************************************************************************/
 /******************************************************************************/
@@ -362,5 +385,17 @@ $geobeyond_sig_margin:                 25px;
     opacity: 0.9;
     @include transition(opacity 300ms);
     &:hover { opacity: 1; }
+    transform: translate(-35%, +40%) scale(0.430);
   }
 /******************************************************************************/
+  #foss4g-footer {
+    display: block; width: $foss4g_foot_width;  height: $foss4g_foot_height;
+    position: fixed; left: $foss4g_foot_margin; bottom: $foss4g_foot_margin;
+    background: url($foss4g_foot);
+    z-index: 25;
+    @include hide-text;
+    opacity: 0.9;
+    @include transition(opacity 300ms);
+    &:hover { opacity: 1; }
+    transform: translate(-30%, +46%) scale(0.150);
+  }

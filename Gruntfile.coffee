@@ -93,11 +93,11 @@ module.exports = (grunt) ->
                         'css/img/**'
                         'css/fonts/**'
                     ]
-                    dest: 'dist/geopython2016'
+                    dest: 'dist/foss4g2016'
                 },{
                     expand: true
                     src: ['index.html']
-                    dest: 'dist/geopython2016/'
+                    dest: 'dist/foss4g2016/'
                     filter: 'isFile'
                 }]
 
